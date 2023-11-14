@@ -106,3 +106,19 @@ console.log(num1);
 console.log(typeof num1); //string
 console.log(typeof 34); //number
 console.log(typeof false); //boolean
+
+//преобразование из строки в число
+
+// преобразования из строки в число и обратно
+
+let variable1 = "24";
+
+console.log(typeof variable1);
+
+let number1 = Number(variable1); //24
+let number2 = Number("123"); //123
+
+console.log(typeof number1); //number
+
+let variable2 = 12;
+let str1 = String(variable2);
