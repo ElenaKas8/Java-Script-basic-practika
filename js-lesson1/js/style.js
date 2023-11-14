@@ -75,50 +75,84 @@ let age = 15;
 //“rgb(12, 34, 14)” используя конкатенацию и интерполяцию.
 
 // конкатенация
-let r = 12;
-let g = 34;
-let b = 14;
-console.log("rgb(" + r + ", " + g + ", " + b + ")");
+// let r = 12;
+// let g = 34;
+// let b = 14;
+// console.log("rgb(" + r + ", " + g + ", " + b + ")");
 
 //интерполяция
 
-console.log(`rgb(${r}, ${g}, ${b})`);
+// console.log(`rgb(${r}, ${g}, ${b})`);
 
-// boolean
+// // boolean
 
-true;
-false;
+// true;
+// false;
 
-let result = true;
-// let result = true; //boolean
-// let result1 = 'true'; //string
+// let result = true;
+// // let result = true; //boolean
+// // let result1 = 'true'; //string
 
-//ввод данных
+// //ввод данных
 
-let first_name = prompt("Enter your name");
-let last_name = prompt("Enter your surname");
-console.log(first_name + " " + last_name);
+// let first_name = prompt("Enter your name");
+// let last_name = prompt("Enter your surname");
+// console.log(first_name + " " + last_name);
 
 // --------Узнаем тип введенных данных при помощи typeOf-------
 
-let num1 = prompt("enter the number");
-console.log(num1);
-console.log(typeof num1); //string
-console.log(typeof 34); //number
-console.log(typeof false); //boolean
+// let num1 = prompt("enter the number");
+// console.log(num1);
+// console.log(typeof num1); //string
+// console.log(typeof 34); //number
+// console.log(typeof false); //boolean
 
 //преобразование из строки в число
 
 // преобразования из строки в число и обратно
 
-let variable1 = "24";
+// let variable1 = "24";
 
-console.log(typeof variable1);
+// console.log(typeof variable1);
 
-let number1 = Number(variable1); //24
-let number2 = Number("123"); //123
+// let number1 = Number(variable1); //24
+// let number2 = Number("123"); //123
 
-console.log(typeof number1); //number
+// console.log(typeof number1); //number
 
-let variable2 = 12;
-let str1 = String(variable2);
+// let variable2 = 12;
+// let str1 = String(variable2);
+
+// console.log(2 + 2); //4
+// console.log("2" + 2); //'22'
+// console.log(2 + "2"); //'22'
+
+// console.log("2" - 1); //1
+// console.log("2" * 2); //4
+// console.log("6" / 2); //3
+// console.log("6a " / 2); //NaN
+
+// console.log(Number("6a")); //NaN
+
+//Задача: Написать программу, которая считывает через prompt число и выводит в консоль ее
+//квадрат
+
+// let num = Number(prompt("enter the number"));
+// console.log(num ** 2);
+
+//Задача: Написать программу, которая считывает два числа (объявляем две переменные и
+// записываем туда результат работы двух вызовов prompt) и выводит их сумму. Не забудьте
+// преобразовать полученные значения в число.
+
+let a = prompt("Введите первое число:");
+let b = prompt("Введите второе число:");
+let result = Number(a) + Number(b);
+console.log(result);
+
+// let num1 = prompt('enter the first number');
+// let num2 = prompt('enter the second number');
+// // let result = Number(num1) + Number(num2);
+// // console.log(result);
+
+// console.log(Number(num1+num2)); //1. num1+num2 concat 2. Number()
+// console.log(Number(num1) + Number(num2));
