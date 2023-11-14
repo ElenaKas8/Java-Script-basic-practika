@@ -39,8 +39,8 @@ console.log(NaN ** 0); //1  возведение в степень-единст�
 
 // string
 
-let first_name = "John";
-let last_name = "Smith";
+// let first_name = "John";
+// let last_name = "Smith";
 
 // John Smith
 
@@ -62,14 +62,14 @@ let last_name = "Smith";
 // let last_name = "Smith";
 let age = 15;
 
-console.log(
-  "Hi. My name is " + first_name + " " + last_name + ". I'm " + age + "."
-);
+// console.log(
+//   "Hi. My name is " + first_name + " " + last_name + ". I'm " + age + "."
+// );
 
 //интерполяция//
 //Hi.My name is Firstname Lastname.Im age
 
-console.log(`Hi.My name is ${first_name} ${last_name}.I'm ${age}.`);
+// console.log(`Hi.My name is ${first_name} ${last_name}.I'm ${age}.`);
 
 // Задача: есть переменные r, g, b с числовыми значениями. Вывести в консоль строку
 //“rgb(12, 34, 14)” используя конкатенацию и интерполяцию.
@@ -92,3 +92,17 @@ false;
 let result = true;
 // let result = true; //boolean
 // let result1 = 'true'; //string
+
+//ввод данных
+
+let first_name = prompt("Enter your name");
+let last_name = prompt("Enter your surname");
+console.log(first_name + " " + last_name);
+
+// --------Узнаем тип введенных данных при помощи typeOf-------
+
+let num1 = prompt("enter the number");
+console.log(num1);
+console.log(typeof num1); //string
+console.log(typeof 34); //number
+console.log(typeof false); //boolean
