@@ -66,7 +66,7 @@
 //   "Hi. My name is " + first_name + " " + last_name + ". I'm " + age + "."
 // );
 
-//интерполяция//
+//интерполяция-ШАБЛОННАЯ СТРОКА//
 //Hi.My name is Firstname Lastname.Im age
 
 // console.log(`Hi.My name is ${first_name} ${last_name}.I'm ${age}.`);
