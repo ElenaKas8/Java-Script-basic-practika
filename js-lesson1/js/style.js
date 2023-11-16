@@ -118,8 +118,7 @@
 // let number1 = Number(variable1); //24
 // let number2 = Number("123"); //123
 
-// console.log(typeof number1); //number
-
+// console.log(typeof number1); //num
 // let variable2 = 12;
 // let str1 = String(variable2);
 
