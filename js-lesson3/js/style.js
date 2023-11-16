@@ -76,31 +76,166 @@
 //>0 %3==0
 
 // let num =5;
-// // if (num > 0 && num % 3 == 0 && num%5==0) {
+// if (num > 0 && num % 3 == 0 && num%5==0) {
   // console.log("true");
 // }
 
-//15 true 
-//5 false
-//-15 false
+// 15 true 
+// 5 false
+// -15 false
 
 // -----или
-//выполняется если хотябы одно верно
-let num = 15;
-
-if(num>0 || num%3==0 || num%5==0){
-  console.log('true');
-
-  //4 true
+// выполняется если хотябы одно верно
+// let num = 15;
+// 
+// if(num>0 || num%3==0 || num%5==0){
+  // console.log('true');
+// 
+  // 4 true
   // 15 true
-  //-4 false
-  
-}
+  // -4 false
+  // 
+// }
+// 
+// Составьте программу, которая выводит на экран все трехзначные положительные числа, делящиеся без остатка и на 3 и на 5  (начиная с наименьшего).
 
-//Составьте программу, которая выводит на экран все трехзначные положительные числа, делящиеся без остатка и на 3 и на 5  (начиная с наименьшего).
+// for (let i = 100; i <= 999; i++) {
+  // if (i % 3 === 0 && i % 5 === 0) {
+    // console.log(i);
+  // }
+// }
+// -----------2Вариант------
+// for (let i = 100; i<1000; i+=5){
+  // if (i % 3==0){ 
+    // console.log(i);
+    // 
+  // }
+// 
+// }
 
-for (let i = 100; i <= 999; i++) {
-  if (i % 3 === 0 && i % 5 === 0) {
-    console.log(i);
+// object
+// let object = {};
+// 
+// let user = {
+  // firstname: "John",
+  // lastname: "Smith",
+  // age: 18,
+  // "is admin": true
+// };
+
+// console.log(user);
+// console.log(user.firstname);
+// console.log(user["firstname"]);
+// user.age = 19;
+// 
+// 
+// console.log(user);
+// Присваивание
+// user.gender = 'Male';
+// console.log(user);
+// 
+// удаление объекта
+// 
+// delete user.lastname;
+// console.log(user);
+// console.log(user["is admin"]);
+// user['is admin'] = false;
+// user['likes cars'] = true;
+// ЕСЛИ КЛЮЧ СОСТОИТ ИЗ НЕСКОЛЬКИХ СЛОВ-ПРИМЕНЕМ КВАДРАТНЫЕ СКОБКИ
+// 
+// const product = {
+  // model: 'iphone 13 pro max',
+  // price:'1200$'
+// }
+// 
+// product.price = '1250$';
+
+// -----------------------------------
+// 
+// let country = {
+  // name: 'Germany',
+  // language: 'germany',
+  // capital: {
+    // name:'Berlin',
+    // population: '300000000',
+    // year:1237
+    // 
+  // }
+// }
+// 
+// console.log(country);
+// console.log(country.language);
+// console.log(country.capital.name);
+
+
+// let users = {
+  // firstname: ["John", "Bob", "Mary"],
+  // lastname: ["Smith", "Brown", "Marley"],
+// };
+// console.log(users.firstname);
+// console.log(users.firstname[1]);
+// console.log(country["capital"]["population"]);
+// console.log('language' in country);//true
+// console.log('year' in country); //false
+// console.log('year' in country.capital.date); //true
+
+
+//1. Напишите код, выполнив задание из каждого пункта отдельной строкой:
+
+    // Создайте пустой объект user.
+    // Добавьте свойство name со значением John.
+    // Добавьте свойство surname со значением Smith.
+    // Измените значение свойства name на Pete.
+// Удалите свойство name из объекта.
+    
+
+// let user = {};
+  // user.name="John",
+  // user.surname="Smith",
+//
+// console.log(user);
+// user.name = "Pete",
+  // delete user.name
+//
+// console.log(user);
+//
+//
+// let user = {};
+//
+// user.name = "John";
+// user.surname = "Smith";
+// user.name = "Pete";
+// delete user.name;
+//
+// console.log(user);
+
+
+// -------
+// У нас есть следующий объект:
+// 
+    let user = {
+    name: "John",
+    age: 30
+    };
+
+if ("age" in user) {
+      console.log('true');
+    }
+      // Проверьте, что в объекте есть ключ age.
+
+      //используя цикл и условия // В программе объявлена переменная list, представляющая массив положительных и отрицательных численных значений. Используя цикл, выведите в консоль сумму положительных чисел.
+
+
+
+
+let list = [3, -5, 7, -2, 10, -8, 15];
+
+let sum = 0;
+
+for (let i = 0; i < list.length; i++) {
+  if (list[i] > 0) {
+    sum += list[i];
   }
 }
+
+console.log("Сумма положительных чисел: " + sum);
