@@ -53,12 +53,12 @@
 // }
 // 0, 1, 2;
 // 
-// for (let i = 0; i < 5; i++) {
-  // if (i == 2) {
-// break;
-  // }
-  // console.log(i);
-// }
+ for (let i = 0; i < 5; i++) {
+ if (i == 2) {
+ break;
+  }
+   console.log(i);
+ }
 // 0,1
 // ----CONTINUE-часто используется в календарях
 
