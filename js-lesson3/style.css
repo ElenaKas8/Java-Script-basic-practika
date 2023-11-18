@@ -1,0 +1,18 @@
+*{
+    padding: 10px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.container{
+    width: clamp(400px, 50%, 600px);
+    background-color: rgb(234, 214, 214);
+    margin: 0 auto;
+}
+p{
+    max-width: 300px;
+    font-size: 20px;
+    line-height: 2;
+}
+.check{
+    color: blue;
+}

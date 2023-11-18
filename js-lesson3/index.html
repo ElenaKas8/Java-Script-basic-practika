@@ -7,7 +7,37 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
+    <div class="container">
     <h1>Object</h1>
+    <h2>Объекты-циклы</h2>    
+    <h4>Проверьте, что в объекте есть  ключ age</h4>⁡⁡⁢⁣⁢
+    <p>
+ let user = {<br>
+ name: "John",<br>
+ age: 30};<br>
+⁢if ("age" <span class="check">in</span> user) {⁡
+ console.log('true');
+ }</p>
+
+ <h4>Используя цикл и условия <br>
+   В программе объявлена переменная list, представляющая массив 
+положительных и отрицательных численных значений. Используя цикл, выведите в консоль сумму 
+положительных чисел.</h4>
+<p>
+
+   let list = [3, -5, 7, -2, 10, -8, 15];<br>
+ 
+ let sum = 0;<br>
+ 
+ for (let i = 0; i < list.length; i++) {<br>
+ if (list[i] > 0) {<br>
+   sum += list[i];<br>
+ }
+ }
+ 
+ console.log("Сумма положительных чисел: " + sum);
+</p>
+ </div>
     <script src="./js/style.js"></script>
   </body>
 </html>

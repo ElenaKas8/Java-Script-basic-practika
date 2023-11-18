@@ -46,20 +46,20 @@
 
 //Прекращение цикла
 // for (let i = 0; i < 5; i++) {
-//   console.log(i);
-//   if (i == 2) {
+  // console.log(i);
+  // if (i == 2) {
 // break;
-//   }
+  // }
 // }
 // 0, 1, 2;
-//
+// 
 // for (let i = 0; i < 5; i++) {
-//   if (i == 2) {
+  // if (i == 2) {
 // break;
-//   }
-//   console.log(i);
+  // }
+  // console.log(i);
 // }
-
+// 0,1
 // ----CONTINUE-часто используется в календарях
 
 // for (let i = 0; i < 5; i++) {
@@ -74,7 +74,7 @@
 // &&(and) || (or)
 
 //>0 %3==0
-
+//& выполняется если все условия верны
 // let num =5;
 // if (num > 0 && num % 3 == 0 && num%5==0) {
   // console.log("true");
@@ -85,7 +85,7 @@
 // -15 false
 
 // -----или
-// выполняется если хотябы одно верно
+// &выполняется если хотябы одно верно
 // let num = 15;
 // 
 // if(num>0 || num%3==0 || num%5==0){
@@ -97,7 +97,7 @@
   // 
 // }
 // 
-// Составьте программу, которая выводит на экран все трехзначные положительные числа, делящиеся без остатка и на 3 и на 5  (начиная с наименьшего).
+//^^ Составьте программу, которая выводит на экран все трехзначные положительные числа, делящиеся без остатка и на 3 и на 5  (начиная с наименьшего).
 
 // for (let i = 100; i <= 999; i++) {
   // if (i % 3 === 0 && i % 5 === 0) {
@@ -105,7 +105,7 @@
   // }
 // }
 // -----------2Вариант------
-// for (let i = 100; i<1000; i+=5){
+// *for (let i = 100; i<1000; i+=5){
   // if (i % 3==0){ 
     // console.log(i);
     // 
@@ -116,32 +116,32 @@
 // object
 // let object = {};
 // 
-// let user = {
-  // firstname: "John",
-  // lastname: "Smith",
+//* let user = {
+  //* firstname: "John",
+  //* lastname: "Smith",
   // age: 18,
   // "is admin": true
 // };
 
 // console.log(user);
-// console.log(user.firstname);
-// console.log(user["firstname"]);
+//* console.log(user.firstname);
+//* console.log(user["firstname"]);
 // user.age = 19;
 // 
 // 
 // console.log(user);
-// Присваивание
+//* Присваивание
 // user.gender = 'Male';
 // console.log(user);
 // 
-// удаление объекта
+//^^ удаление объекта
 // 
-// delete user.lastname;
+//^^ delete user.lastname;
 // console.log(user);
 // console.log(user["is admin"]);
-// user['is admin'] = false;
-// user['likes cars'] = true;
-// ЕСЛИ КЛЮЧ СОСТОИТ ИЗ НЕСКОЛЬКИХ СЛОВ-ПРИМЕНЕМ КВАДРАТНЫЕ СКОБКИ
+⁡⁢⁣⁢// user['is admin']⁡ = false;
+⁡⁢⁣⁢//⁡ ⁡⁢⁣⁢user['likes cars']⁡ = true;
+⁡⁢⁣⁢// ЕСЛИ КЛЮЧ СОСТОИТ ИЗ НЕСКОЛЬКИХ СЛОВ-ПРИМЕНЕМ КВАДРАТНЫЕ СКОБКИ⁡
 // 
 // const product = {
   // model: 'iphone 13 pro max',
@@ -185,8 +185,8 @@
     //^° Создайте пустой объект user.
     //~ Добавьте свойство name со значением John.
     //& Добавьте свойство surname со значением Smith.
-    // Измените значение свойства name на Pete.
-// Удалите свойство name из объекта.
+    //⁡⁢⁣⁢ Измените⁡ значение свойства name на Pete.
+// ⁡⁢⁣⁢Удалите⁡ свойство name из объекта.
     
 
 // let user = {};
@@ -194,34 +194,34 @@
   // user.surname="Smith",
 //
 // console.log(user);
-// user.name = "Pete",
-  // delete user.name
+// ⁡⁢⁣⁢user.name = "Pete",⁡
+  //⁡⁢⁣⁢ delete user.name⁡
 //
 // console.log(user);
 //
 //
-let user = {};
-
-user.name = "John";
-user.surname = "Smith";
-user.name = "Pete";
-delete user.name;
-
-console.log(user);
+// let user = {};
+// 
+// user.name = "John";
+// user.surname = "Smith";
+// user.name = "Pete";
+// delete user.name;
+// 
+// console.log(user);
 //
 
 // -------
 // У нас есть следующий объект:
-//^Проверьте, что в объекте есть ключ age.
-
-    let user = {
-    name: "John",
-    age: 30
-    };
-
-if ("age" in user) {
-      console.log('true');
-    }
+⁡⁢⁣⁢//⁡^⁡⁢⁣⁢Проверьте, что в объекте есть ключ age⁡.
+// 
+    // let user = {
+    // name: "John",
+    // age: 30
+    // };
+// 
+// ⁡⁢⁣⁢if ("age" in user) {⁡
+      // console.log('true');
+    // }
       
 
       //^используя цикл и условия // В программе объявлена переменная list, представляющая массив положительных и отрицательных численных значений. Используя цикл, выведите в консоль сумму положительных чисел.
@@ -229,14 +229,14 @@ if ("age" in user) {
 
 
 
-let list = [3, -5, 7, -2, 10, -8, 15];
-
-let sum = 0;
-
-for (let i = 0; i < list.length; i++) {
-  if (list[i] > 0) {
-    sum += list[i];
-  }
-}
-
-console.log("Сумма положительных чисел: " + sum);
+// let list = [3, -5, 7, -2, 10, -8, 15];
+// 
+// let sum = 0;
+// 
+// for (let i = 0; i < list.length; i++) {
+  // if (list[i] > 0) {
+    // sum += list[i];
+  // }
+// }
+// 
+// console.log("Сумма положительных чисел: " + sum);
