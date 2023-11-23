@@ -100,7 +100,7 @@
 //                         let links = document.querySelectorAll('a');⁡
 
 //  console.log(links);
-//ДОБАВЛЯЕМ,МЕНЯЕМ АТРИБУТЫ
+//^^ДОБАВЛЯЕМ,МЕНЯЕМ АТРИБУТЫ
 
 // let link = document.querySelector('a');
 //
