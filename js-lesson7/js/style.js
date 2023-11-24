@@ -91,8 +91,8 @@
 
 //* Задача: Написать скрипт, который находит параграфы и выводит (console) текстовое содержимое начная с 3 параграфа до 6.
 
-// for (let i = 2; i < 6; i++) {
-//   console.log(paragraphs[i].innerText);
+// ⁡⁢⁢⁢for (let i = 2; i < 6; i++) {⁡
+//   ⁡⁢⁢⁢console.log(paragraphs[i].innerText);⁡
 // }
 //
 // ⁡⁢⁢⁢// querySelector(first element) or querySelectorAll(all elements) -
@@ -106,15 +106,17 @@
 //
 // link.innerText = 'Google';
 //
-// link.setAttribute('href', 'https://www.google.com');
+// ⁡⁢⁢⁢link.setAttribute('href', 'https://www.google.com')⁡;
 // link.setAttribute('target', '_blank');
 //
 //^^Проверяет или есть атрибут
-// console.log(link.hasAttribute('target'));//true
+// ⁡⁢⁢⁢console.log(link.hasAttribute('target'));//true⁡
 // console.log(link.hasAttribute('class'));//false
 //^^ДОБАВЛЯЕТ АТРИБУТ
-// // console.log(link.getAttribute('href'));//https://www.google.com
-//
+
+// ⁡⁢⁢⁢console.log(link.getAttribute('href'));//https://www.google.com
+
+//^^Удаляем атрибут
 // link.removeAttribute('target');
 
 //&---------------------------------менем картинки
