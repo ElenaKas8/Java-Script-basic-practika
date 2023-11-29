@@ -12,11 +12,11 @@
 
 
         <header>
-            <button>Start</button>
+            <button onmousedown="start_game()">Start</button>
         </header>
 
-        <div id="area">
-            <div id="object"></div>
+        <div id="area" onmousedown="miss(event)">
+            <div id="object" onmousedown="hit()"></div>
         </div>
     </div>
     <script src="./js/style.js"></script>
