@@ -3,11 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JSLesson6-29.11</title>
-    <h1>Function Expression,Function Declaration</h1>
-    <link rel="stylesheet" href="./style/style.css" />
+    <title>ClassList-29.11</title>
+    
+    <style>
+      body {
+        transition: 0.5s;
+      }
+      .is-dark {
+        background: #000;
+        color: #fff;
+      }
+    </style>
   </head>
   <body>
+    <script>
+      function toggle_theme() {
+        document.body.classList.toggle("is-dark");
+      }
+    </script>
+
+    <h1>About company</h1>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat soluta
+      tenetur sit consequatur, voluptas corrupti natus cumque voluptatem,
+      sapiente amet eveniet alias temporibus maxime. Rerum autem mollitia enim
+      voluptate blanditiis aliquid accusamus repellat nihil fugit nisi
+      consequatur, quisquam aliquam impedit esse nemo quasi voluptatum commodi
+      quo hic aut accusantium, amet laudantium id labore. Perferendis
+      necessitatibus, aspernatur exercitationem illum neque sapiente suscipit
+      quo laudantium facilis eius vel quidem veniam nemo magnam dignissimos quia
+      mollitia nesciunt? Harum quas soluta perspiciatis quos. Omnis cum
+      doloribus modi nesciunt eum nobis quae, illum beatae, aperiam ducimus non
+      quidem quas nihil nulla officiis, nemo ipsum. Magnam, alias corporis
+      inventore deserunt maxime, ratione optio in voluptatibus quos perferendis
+      id quaerat saepe. Commodi quisquam voluptatibus saepe, pariatur enim vel
+      fugiat, at, perferendis earum error esse impedit. Nostrum nobis quam
+      aspernatur ea illum provident quis beatae! Provident sit libero sed
+      commodi hic maxime sequi illo odit rerum nulla. Ipsam.
+    </p>
+    <button onclick="toggle_theme()">Сменить тему</button>
     <script src="./js/style.js"></script>
   </body>
 </html>
