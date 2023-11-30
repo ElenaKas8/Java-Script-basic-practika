@@ -1,0 +1,11 @@
+div {
+    color: blue;
+    background-color: lightblue;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+.active {
+    background-color: blue;
+    color: lightblue;
+}
