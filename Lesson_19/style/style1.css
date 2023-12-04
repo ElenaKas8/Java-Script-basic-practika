@@ -44,5 +44,30 @@ body{
     color: white;
     font-size: 25px;
     padding: 10px 30px;
-    border: none;
+    border: none;}
+
+    /* стилизвция карточки -добавление */
+
+.products_list_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.products_list_container .product_card{
+    width: 70%;
+    background-color: #34495E;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 30px 60px;
+    border-radius: 20px;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.products_list_container .product_card:hover{
+    box-shadow: 8px 8px 20px 8px black;
 }
