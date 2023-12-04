@@ -53,6 +53,29 @@ function rerender(){
     productsList.innerHTML = '';//очищаем контейнер с карточками товаров
     for(let i=0; i<products.length; i++){
         let productCardElem = createProductCard(products[i]);
+        let removeBtn = createRemoveBtn();
+        productCardElem.append(removeBtn);
+        
         productsList.append(productCardElem);
     }
+}
+
+
+
+//*Добавить функцию, которая возвращает кнопку в виде крестика в красном кружке.
+
+function createRemoveBtn(){
+    let btnRemove = document.createElement('button');
+    btnRemove.innerText = 'X';
+    btnRemove.classList.add('remove_btn');
+
+    return btnRemove;
+}
+
+//*Добавить отображение фразы “товаров нет”, когда товаров нет
+if(products.length == 0){
+    let emptyP = document.createElement('p');
+    emptyP.innerText = 'Товаров нет';
+    emptyP.classList.add('empty_p');
+    productsList.append(emptyP);
 }
